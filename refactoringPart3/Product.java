@@ -1,4 +1,4 @@
-public class Product2 {
+public class Product {
 
 	private String name = "";
 	private double price = 0.0;
@@ -10,7 +10,7 @@ public class Product2 {
 	public double getShippingCost(){ return shippingCost; }
 	public int getQuantity(){ return quantity; }
 	
-	Product2(String name, double price, double shippingCost, int quantity){
+	Product(String name, double price, double shippingCost, int quantity){
 		
 		this.name = name;
 		this.price = price;

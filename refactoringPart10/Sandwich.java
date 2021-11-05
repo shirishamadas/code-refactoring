@@ -1,7 +1,7 @@
 // The Builder Pattern allows you to build complex
 // objects in a series of steps. 
 
-public class Sandwiches {
+public class Sandwich {
 	
 	private String bread = "";
 	private String vegetables = "";
